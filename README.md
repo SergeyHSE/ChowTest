@@ -2,6 +2,16 @@
 
 ChowTest is a Python library for conducting the Chow Test, which tests for structural breaks in the coefficients of two linear regressions.
 
+## Instalation (Google colab)
+
+```
+!git clone https://github.com/SergeyHSE/ChowTest.git
+
+%cd ChowTest
+
+!pip install .
+```
+
 ## Usage
 
 To use ChowTest, follow these steps:
@@ -23,14 +33,15 @@ To use ChowTest, follow these steps:
 3. Call the `chowtest` function:
 
     ```python
-    result = chowtest(X, y, last_index_in_model_1, first_index_in_model_2, significance_level)
+    results = chowtest(X, y, last_index_in_model_1, first_index_in_model_2, significance_level)
+    Chow_Stat, p_value = results
     ```
 
 4. Display the results:
 
     ```python
-    print("Chow Statistic:", result[0])
-    print("p-value:", result[1])
+    print("Chow Statistic:", Chow_Stat)
+    print("P-value:", p_value)
     ```
 
 Make sure to replace the placeholder values (`X`, `y`, `last_index_in_model_1`, `first_index_in_model_2`, `significance_level`) with your actual data and parameters.
