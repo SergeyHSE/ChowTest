@@ -3,7 +3,7 @@ from scipy.stats import f
 import pandas as pd
 import numpy as np
 
-def сhowtest(X, y, last_index_in_model_1, first_index_in_model_2, significance_level):
+def chowtest(X, y, last_index_in_model_1, first_index_in_model_2, significance_level):
   '''
   This function conducts a Chow Test, returning the Chow Statistic and associated p-value.
 
