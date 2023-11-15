@@ -2,13 +2,15 @@
 
 ChowTest is a Python library for conducting the Chow Test, which tests for structural breaks in the coefficients of two linear regressions.
 The null hypothesis (H0) of the Chow Test assumes that there is no structural break in the coefficients of the two linear regressions. In other words, it posits that the relationships between the independent variables and the dependent variable are the same across the specified segments. 
-    If the p-value is less than the chosen significance level (usually 0.05):
-        Reject the null hypothesis.
-        Conclusion: There are statistically significant evidence of a structural change in the regression coefficients between the two periods.
+```
+If the p-value is less than the chosen significance level (usually 0.05):
+    Reject the null hypothesis.
+    Conclusion: There are statistically significant evidence of a structural change in the regression coefficients between the two periods.
 
-    If the p-value is greater than the chosen significance level:
-        Fail to reject the null hypothesis.
-        Conclusion: There is no statistically significant evidence of a structural change in the regression coefficients between the two periods.
+If the p-value is greater than the chosen significance level:
+    Fail to reject the null hypothesis.
+    Conclusion: There is no statistically significant evidence of a structural change in the regression coefficients between the two periods.
+```
 
 ## Instalation (Google colab)
 
