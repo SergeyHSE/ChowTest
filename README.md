@@ -12,14 +12,17 @@ If the p-value is greater than the chosen significance level:
     Conclusion: There is no statistically significant evidence of a structural change in the regression coefficients between the two periods.
 ```
 
-## Instalation (Google colab)
+## Instalation
 
 ```
-!git clone https://github.com/SergeyHSE/ChowTest.git
+Download ZIP:
+Click on the green "Code" button and select "Download ZIP". Save the ZIP archive to your computer.
 
-%cd ChowTest
+Extract ZIP Archive:
+Extract the contents of the ZIP file to a location of your choice.
 
-!pip install .
+Install the Package:
+!pip install /path/to/your/ChowTest
 ```
 
 ## Usage
