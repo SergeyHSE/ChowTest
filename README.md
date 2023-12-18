@@ -15,14 +15,21 @@ If the p-value is greater than the chosen significance level:
 ## Instalation
 
 ```
-Download ZIP:
+**Download ZIP:**
 Click on the green "Code" button and select "Download ZIP". Save the ZIP archive to your computer.
 
-Extract ZIP Archive:
-Extract the contents of the ZIP file to a location of your choice.
+**Extract ZIP Archive:**
+Unpack the archive into a folder containing python packages.
+Rename the subfolder to 'Chowtest' and extract this folder from the main folder, deleting the resulting empty main folder.
 
-Install the Package:
+**Install the Package:**
 !pip install /path/to/your/ChowTest
+
+**For Colab we should load the archive to colab envirment and run the next command:**
+!unzip /content/ChowTest-main.zip -d /content/ChowTest
+and then run this command:
+!pip install /content/ChowTest/ChowTest
+
 ```
 
 ## Usage
